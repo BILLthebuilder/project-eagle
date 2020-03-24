@@ -5,7 +5,13 @@
                 <a href="#">BrightEvents</a>
             </div>
             <div class="search">
-                <input type="search" name="search events" placeholder="Search events" />
+                <font-awesome-icon :icon="['fas', 'search']" class="search-icon" />
+                <input
+                    type="search"
+                    name="search events"
+                    placeholder="Search events"
+                    class="search-bar"
+                />
             </div>
         </div>
         <nav class="top-links">
