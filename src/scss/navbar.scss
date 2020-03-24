@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    // background: lightblue;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+.logo-search {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.top-links {
+    display: flex;
+    margin-left: 38%;
+    div {
+        display: flex;
+        p {
+            padding: 5px;
+        }
+        a {
+            align-self: center;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+        &:nth-child(1) {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        &:nth-child(2) {
+            margin-right: 30px;
+        }
+    }
+}
