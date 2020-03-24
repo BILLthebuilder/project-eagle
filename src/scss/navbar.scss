@@ -10,6 +10,9 @@ header {
 .logo-search {
     display: flex;
     align-items: center;
+    ::placeholder {
+        font-size: 1.5em;
+    }
 }
 .logo {
     margin-left: 20px;
