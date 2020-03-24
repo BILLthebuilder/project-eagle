@@ -1,5 +1,34 @@
 <template>
-    <div>hello</div>
+    <nav>
+        <div class="logo-search">
+            <div class="logo">
+                <a href="#">BrightEvents</a>
+            </div>
+            <div class="search">
+                <input type="search" name="search events" placeholder="Search events" />
+            </div>
+        </div>
+        <div class="top-links">
+            <div>
+                <p>Organize</p>
+                <a>
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </a>
+            </div>
+            <div>
+                <p>Create Event</p>
+                <a>
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </a>
+            </div>
+            <div>
+                <p>Sign In</p>
+                <a>
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </a>
+            </div>
+        </div>
+    </nav>
 </template>
 
 <script>
@@ -8,4 +37,6 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="scss" scoped>
+@import '../scss/navbar.scss';
+</style>
