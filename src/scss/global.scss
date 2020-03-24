@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0.1px solid black;
+    // border: 0.1px solid black;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 a {
     text-decoration: none;
