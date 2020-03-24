@@ -3,9 +3,9 @@ import App from './App.vue';
 import router from './router';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown, faSearch } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faCaretDown);
+library.add(faCaretDown, faSearch);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
