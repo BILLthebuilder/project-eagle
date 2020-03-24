@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <header>
         <div class="logo-search">
             <div class="logo">
                 <a href="#">BrightEvents</a>
@@ -8,7 +8,7 @@
                 <input type="search" name="search events" placeholder="Search events" />
             </div>
         </div>
-        <div class="top-links">
+        <nav class="top-links">
             <div>
                 <p>Organize</p>
                 <a>
@@ -27,8 +27,8 @@
                     <font-awesome-icon :icon="['fas', 'caret-down']" />
                 </a>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 </template>
 
 <script>
