@@ -52,3 +52,46 @@ header {
         }
     }
 }
+
+@media only screen and (max-width: 425px) {
+    header {
+        width: 100%;
+        margin-top: 2%;
+    }
+    div {
+        .organize,
+        .create-event {
+            display: none;
+        }
+    }
+    .search-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        width: 100%;
+    }
+    .logo-search {
+        margin-left: 0;
+    }
+    .top-links {
+        margin-left: 15%;
+    }
+    div {
+        .sign-in {
+            margin-left: 0;
+
+            p {
+                display: flex;
+                span {
+                    margin-left: 7%;
+                }
+            }
+            a {
+                display: none;
+            }
+        }
+    }
+}
