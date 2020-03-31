@@ -63,6 +63,16 @@ header {
         .create-event {
             display: none;
         }
+        .sign-in {
+            margin-left: 0;
+
+            p {
+                display: flex;
+                span {
+                    margin-left: 7%;
+                }
+            }
+        }
     }
     .search-bar {
         display: none;
@@ -75,17 +85,5 @@ header {
     }
     .top-links {
         margin-left: 15%;
-    }
-    div {
-        .sign-in {
-            margin-left: 0;
-
-            p {
-                display: flex;
-                span {
-                    margin-left: 7%;
-                }
-            }
-        }
     }
 }
