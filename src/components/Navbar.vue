@@ -27,11 +27,9 @@
                     <font-awesome-icon :icon="['fas', 'caret-down']" />
                 </a>
             </div>
-            <div>
-                <p>Sign In</p>
-                <a>
-                    <font-awesome-icon :icon="['fas', 'caret-down']" />
-                </a>
+            <div class="mobile-menu"></div>
+            <div class="sign-in">
+                <p>Sign <span>In</span></p>
             </div>
         </nav>
     </header>
