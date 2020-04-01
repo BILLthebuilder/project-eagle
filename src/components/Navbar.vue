@@ -15,13 +15,13 @@
             </div>
         </div>
         <nav class="top-links">
-            <div>
+            <div class="organize">
                 <p>Organize</p>
                 <a>
                     <font-awesome-icon :icon="['fas', 'caret-down']" />
                 </a>
             </div>
-            <div>
+            <div class="create-event">
                 <p>Create Event</p>
                 <a>
                     <font-awesome-icon :icon="['fas', 'caret-down']" />
