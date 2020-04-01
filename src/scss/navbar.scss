@@ -29,6 +29,9 @@ header {
 .search-icon {
     margin-right: 5px;
 }
+div.mobile-menu {
+    display: none;
+}
 .top-links {
     display: flex;
     margin-left: 30%;
@@ -57,6 +60,15 @@ header {
     header {
         width: 100%;
         margin-top: 2%;
+    }
+    div.mobile-menu {
+        display: inline;
+        cursor: pointer;
+
+        &::after {
+            content: '\2807';
+            font-size: 1.5em;
+        }
     }
     div {
         .organize,
