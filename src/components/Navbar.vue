@@ -29,7 +29,10 @@
             </div>
             <div class="mobile-menu"></div>
             <div class="sign-in">
-                <p>Sign <span>In</span></p>
+                <p>
+                    Sign
+                    <span>In</span>
+                </p>
             </div>
         </nav>
     </header>
