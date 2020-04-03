@@ -8,6 +8,13 @@ header {
     padding-top: 1.5%;
     padding-bottom: 0.5%;
 }
+.search {
+    display: flex;
+    align-items: center;
+}
+.search-icon {
+    margin-right: 5px;
+}
 .logo-search {
     display: flex;
     align-items: center;
@@ -21,13 +28,6 @@ header {
     a {
         color: $primary-color;
     }
-}
-.search {
-    display: flex;
-    align-items: center;
-}
-.search-icon {
-    margin-right: 5px;
 }
 div.mobile-menu {
     display: none;
