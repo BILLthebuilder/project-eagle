@@ -11,6 +11,19 @@ header {
 .search {
     display: flex;
     align-items: center;
+    background: $bg;
+    padding: 2% 30% 2% 0.5%;
+    color: $text-search;
+    input {
+        background: inherit;
+        border: 0;
+        outline: none;
+        font-size: 0.9em;
+        &::placeholder {
+            font-size: inherit;
+            font-weight: bolder;
+            color: $text-search;
+        }
 }
 .search-icon {
     margin-right: 5px;
