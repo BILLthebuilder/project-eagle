@@ -2,7 +2,7 @@
     <header>
         <div class="logo-search">
             <div class="logo">
-                <a href="#">BrightEvents</a>
+                <a href="#">Eagle</a>
             </div>
             <div class="search">
                 <font-awesome-icon :icon="['fas', 'search']" class="search-icon" />
