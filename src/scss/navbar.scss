@@ -1,0 +1,123 @@
+@import './partials/colors';
+header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    // background: lightblue;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+.search {
+    display: flex;
+    align-items: center;
+    background: $bg;
+    padding: 2% 30% 2% 0.5%;
+    color: $text-search;
+    input {
+        background: inherit;
+        border: 0;
+        outline: none;
+        font-size: 0.9em;
+        &::placeholder {
+            font-size: inherit;
+            font-weight: bolder;
+            color: $text-search;
+        }
+    }
+}
+.search-icon {
+    margin-right: 5px;
+    margin-left: 2px;
+}
+.logo-search {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: monospace;
+    font-size: 1.7em;
+    font-weight: bolder;
+    a {
+        color: $primary-color;
+    }
+}
+div.mobile-menu {
+    display: none;
+}
+.top-links {
+    display: flex;
+    margin-left: 37%;
+    align-items: center;
+    .organize {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .create-event {
+        margin-right: 30px;
+    }
+    div {
+        display: flex;
+        p {
+            padding: 5px;
+        }
+        a {
+            align-self: center;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        width: 100%;
+        margin-top: 2%;
+    }
+    .logo {
+        font-size: 1.3em;
+    }
+    .search {
+        background: none;
+    }
+    div.mobile-menu {
+        display: inline;
+        cursor: pointer;
+
+        &::after {
+            content: '\2807';
+            font-size: 1.5em;
+        }
+    }
+    div {
+        .organize,
+        .create-event {
+            display: none;
+        }
+        .sign-in {
+            margin-left: 0;
+
+            p {
+                display: flex;
+                span {
+                    margin-left: 7%;
+                }
+            }
+        }
+    }
+    .search-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-search {
+        margin-left: 0;
+    }
+    .top-links {
+        margin-left: 15%;
+    }
+}
