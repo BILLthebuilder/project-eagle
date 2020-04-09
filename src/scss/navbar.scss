@@ -74,7 +74,11 @@ div.mobile-menu {
         }
     }
 }
-
+@media (min-width: 1023px) and (max-width: 1024px) {
+    .top-links {
+        margin-left: 25%;
+    }
+}
 @media (max-width: 425px) {
     header {
         width: 100%;
