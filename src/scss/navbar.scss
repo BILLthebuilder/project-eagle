@@ -4,7 +4,6 @@ header {
     align-items: center;
     width: 90%;
     margin: auto;
-    // background: lightblue;
     padding-top: 1.5%;
     padding-bottom: 0.5%;
 }
@@ -79,6 +78,7 @@ div.mobile-menu {
         margin-left: 25%;
     }
 }
+
 @media (max-width: 425px) {
     header {
         width: 100%;
@@ -86,9 +86,6 @@ div.mobile-menu {
     }
     .logo {
         font-size: 1.3em;
-    }
-    .search {
-        background: none;
     }
     div.mobile-menu {
         display: inline;
