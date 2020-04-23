@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.big {
+    background: blue;
+    height: 200px;
+    width: 300px;
+}
+.small {
+    position: absolute;
+    background: brown;
+    height: 100px;
+    width: 200px;
+    margin-top: 4%;
+    margin-left: 12%;
+}
